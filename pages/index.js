@@ -19,7 +19,7 @@ export default function Home() {
         <p>
         The <span style={{color:"#28a745"}}> Kamillah</span> is a 501 (c)(3) 
         tax-exempt charitable organization. 
-        Our mission is to provide assistance for the performance of Hajj, which includes but not limited to, airfare, necessary clothings, 
+        Our mission is to provide assistance to the people in need for the performance of Hajj, which includes but not limited to, airfare, necessary clothings, 
         meals and transportation for the people that cannot afford taking a trip
         for the performance of Hajj.
         Our primary objective is to assist poor and needy Muslim around the world perform Hajj.
