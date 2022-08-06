@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import backgroundpic from '../public/new-images-kaaba-mecca-after-restoration_21730-2621.webp'
 
 export default function Home() {
   return (
@@ -9,13 +10,18 @@ export default function Home() {
         <title>Kamillah</title>
         <meta name="description" content="Kamillah" />
         <link rel="icon" href="/favicon.ico" />
+        <style>
+          
+        </style>
       </Head>
+      
 
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://kamillah.org"><strong> <span style={{color:"#28a745"}}> Kamillah</span></strong></a>
         </h1>
-        <div>
+        {/* <div style={{backgroundImage:`url(${backgroundpic.src})`}}> */}
+        <div > 
         <p>
         The <span style={{color:"#28a745"}}> Kamillah</span> is a 501 (c)(3) 
         tax-exempt charitable organization. 
@@ -24,11 +30,19 @@ export default function Home() {
         for the performance of Hajj.
         Our primary objective is to assist poor and needy Muslim around the world perform Hajj.
         <br></br>
-        
+          
         </p>
         <div>
+          
+        <Image src={backgroundpic} alt="Kaaba Picture"
+            
+        >
+
+        </Image> 
         <strong>NOTICE: This organization does not provide any .......</strong>
+
         </div>
+       
         </div>
         
        </main>
