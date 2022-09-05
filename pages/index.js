@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import backgroundpic from '../public/new-images-kaaba-mecca-after-restoration_21730-2621.webp'
+import kaaba1 from '../public/new-images-kaaba-mecca-after-restoration_21730-2621.webp'
+import kaaba2 from '../public/kaaba2.jpg'
 
 export default function Home() {
   return (
@@ -34,11 +35,16 @@ export default function Home() {
         </p>
         <div>
           
-        <Image src={backgroundpic} alt="Kaaba Picture"
-            
+        <Image src={kaaba1} alt="Kaaba Picture"
+            layout='intrinsic'
         >
-
         </Image> 
+        
+        <Image src={kaaba2} alt="Kaaba Picture"
+            layout='intrinsic'
+        >
+        </Image>
+        
         <strong>NOTICE: This organization does not provide any .......</strong>
 
         </div>
