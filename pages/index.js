@@ -3,6 +3,8 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import kaaba1 from '../public/new-images-kaaba-mecca-after-restoration_21730-2621.webp'
 import kaaba2 from '../public/kaaba2.jpg'
+import NavbarMenu from '../components/NavbarMenu'
+import NavbarLogo from '../components/NavbarLogo'
 
 export default function Home() {
   return (
@@ -15,7 +17,8 @@ export default function Home() {
           
         </style>
       </Head>
-      
+        <NavbarLogo />
+       <NavbarMenu />      
 
       <main className={styles.main}>
         <h1 className={styles.title}>
@@ -24,7 +27,7 @@ export default function Home() {
         {/* <div style={{backgroundImage:`url(${backgroundpic.src})`}}> */}
         <div > 
         <p>
-        The <span style={{color:"#28a745"}}> Kamillah</span> is a 501 (c)(3) 
+         <span style={{color:"#28a745"}}> Kamillah</span> is a 501 (c)(3) 
         tax-exempt charitable organization. 
         Our mission is to provide assistance for the performance of Hajj to the people in need, which includes but not limited to, airfare, necessary clothings, 
         meals and transportation for the people that cannot afford taking a trip
@@ -34,6 +37,7 @@ export default function Home() {
           
         </p>
         <div>
+        
           
         <Image src={kaaba1} alt="Kaaba Picture"
             layout='intrinsic'
