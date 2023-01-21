@@ -28,7 +28,7 @@ export default function NavbarLogo() {
       <Box sx={{ justifyContent: 'left', display: 'flex', alignItems: 'center', textAlign: 'center' }}>
         
       
-        <a>
+        {/* <a>
         <Image
          src="/favicon.ico"
          alt="Home"
@@ -36,7 +36,7 @@ export default function NavbarLogo() {
          height={50}
         >
         </Image>
-        </a>
+        </a> */}
         
         
       </Box>
