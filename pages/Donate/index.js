@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../../styles/Home.module.css'
 import NavbarMenu from '../../components/NavbarMenu'
+import NavbarLogo from '../../components/NavbarLogo'
 
 export default function Donate() {
   return (
@@ -14,7 +15,7 @@ export default function Donate() {
           
         </style>
       </Head>
-      
+      <NavbarLogo />
       <NavbarMenu /> 
 
       <main className={styles.main}>
