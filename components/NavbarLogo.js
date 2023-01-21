@@ -28,7 +28,7 @@ export default function NavbarLogo() {
       <Box sx={{ justifyContent: 'left', display: 'flex', alignItems: 'center', textAlign: 'center' }}>
         
       
-        {/* <a>
+         <a>
         <Image
          src="/favicon.ico"
          alt="Home"
@@ -36,7 +36,7 @@ export default function NavbarLogo() {
          height={50}
         >
         </Image>
-        </a> */}
+        </a>
         
         
       </Box>
@@ -73,7 +73,7 @@ export default function NavbarLogo() {
         transformOrigin={{ horizontal: 'right', vertical: 'top' }}
         anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}
       >
-        <MenuItem>
+        {/* <MenuItem>
           <Avatar /> Profile
         </MenuItem>
         <MenuItem>
@@ -97,7 +97,7 @@ export default function NavbarLogo() {
             <Logout fontSize="small" />
           </ListItemIcon>
           Logout
-        </MenuItem>
+        </MenuItem> */}
       </Menu>
     </React.Fragment>
   );
