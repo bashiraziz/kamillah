@@ -35,7 +35,7 @@ export default function Donate() {
         >
         </Image> 
         
-        <Image src={"Add an"} alt="Picture"
+        <Image src={" "} alt="Picture"
           fill='intrinsic'
         >
         </Image>
