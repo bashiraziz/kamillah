@@ -14,14 +14,14 @@ export default function Application() {
           
         </style>
       </Head>
-      <NavbarLogo />
+      {/* <NavbarLogo /> */}
       <NavbarMenu /> 
 
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://kamillah.org"><strong> <span style={{color:"#28a745"}}> Kamillah</span></strong></a>
         </h1>
-        {/* <div style={{backgroundImage:`url(${backgroundpic.src})`}}> */}
+        
         <div > 
         <p>
          Application
@@ -30,15 +30,15 @@ export default function Application() {
         </p>
         <div>
           
-        <Image src={""} alt="Picture"
-            layout='intrinsic'
+        {/* <Image src={""} alt="Picture"
+            fill='intrinsic'
         >
         </Image> 
         
         <Image src={""} alt="Picture"
-            layout='intrinsic'
+            fill='intrinsic'
         >
-        </Image>
+        </Image> */}
         
         <strong>NOTICE: This organization does not provide any .......</strong>
 

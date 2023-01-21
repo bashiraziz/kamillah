@@ -31,15 +31,15 @@ export default function Donate() {
         </p>
         <div>
           
-        <Image src={"Add an image"} alt="Picture"
+        {/* <Image src={""} alt="Picture"
             fill='intrinsic'
         >
         </Image> 
         
-        <Image src={" "} alt="Picture"
+        <Image src={""} alt="Picture"
           fill='intrinsic'
         >
-        </Image>
+        </Image> */}
         
         <strong>NOTICE: This organization does not provide any .......</strong>
 
