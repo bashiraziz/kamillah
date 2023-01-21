@@ -30,13 +30,13 @@ export default function Donate() {
         </p>
         <div>
           
-        <Image src={""} alt="Picture"
-            layout='intrinsic'
+        <Image src={"Add an image"} alt="Picture"
+            fill='intrinsic'
         >
         </Image> 
         
-        <Image src={""} alt="Picture"
-            layout='intrinsic'
+        <Image src={"Add an"} alt="Picture"
+          fill='intrinsic'
         >
         </Image>
         
