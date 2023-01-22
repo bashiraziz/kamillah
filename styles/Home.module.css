@@ -1,3 +1,4 @@
+
 .container {
   padding: 0 2rem;
 }
@@ -106,6 +107,10 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.donatebutton {
+  background-color:#28a745
 }
 
 @media (max-width: 600px) {

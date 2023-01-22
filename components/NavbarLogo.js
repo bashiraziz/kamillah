@@ -14,6 +14,7 @@ import Logout from '@mui/icons-material/Logout';
 import { Link } from 'next/link'
 import Image from 'next/image'
 import Home from '../pages';
+import Logo from '../public/KaabaLogo.jpg'
 
 export default function NavbarLogo() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -25,12 +26,14 @@ export default function NavbarLogo() {
    
   return (
     <React.Fragment>
+
+      <br/>
       <Box sx={{ justifyContent: 'left', display: 'flex', alignItems: 'center', textAlign: 'center' }}>
         
       
          <a>
         <Image
-         src="/favicon.ico"
+         src={Logo}
          alt="Home"
          width={50}
          height={50}
@@ -73,31 +76,7 @@ export default function NavbarLogo() {
         transformOrigin={{ horizontal: 'right', vertical: 'top' }}
         anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}
       >
-        {/* <MenuItem>
-          <Avatar /> Profile
-        </MenuItem>
-        <MenuItem>
-          <Avatar /> My account
-        </MenuItem>
-        <Divider />
-        <MenuItem>
-          <ListItemIcon>
-            <PersonAdd fontSize="small" />
-          </ListItemIcon>
-          Add another account
-        </MenuItem>
-        <MenuItem>
-          <ListItemIcon>
-            <Settings fontSize="small" />
-          </ListItemIcon>
-          Settings
-        </MenuItem>
-        <MenuItem>
-          <ListItemIcon>
-            <Logout fontSize="small" />
-          </ListItemIcon>
-          Logout
-        </MenuItem> */}
+        
       </Menu>
     </React.Fragment>
   );

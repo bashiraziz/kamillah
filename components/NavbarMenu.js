@@ -22,6 +22,10 @@ export default function NavbarMenu() {
   const handleClose = () => {
     setAnchorEl(null);
   };
+
+  const handleDonateClick = () =>{
+    
+  }
   return (
     <React.Fragment>
       <Box sx={{ justifyContent: 'right', display: 'flex', alignItems: 'center', textAlign: 'center' }}>
@@ -34,6 +38,10 @@ export default function NavbarMenu() {
         <Link href="/Application">
         <Typography sx={{ minWidth: 100 }}>Application</Typography>
         </Link>
+        
+        <button onClick={handleDonateClick} class="donatebutton">Donate</button>
+
+
         <Tooltip title="Account settings">
           <IconButton
             onClick={handleClick}

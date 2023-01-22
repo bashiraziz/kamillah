@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../../styles/Home.module.css'
 import NavbarMenu from '../../components/NavbarMenu'
 import NavbarLogo from '../../components/NavbarLogo'
+import { style } from '@mui/system'
 export default function Application() {
   return (
     <div className={styles.container}>
@@ -14,7 +15,8 @@ export default function Application() {
           
         </style>
       </Head>
-      {/* <NavbarLogo /> */}
+      <br/>
+      <NavbarLogo />
       <NavbarMenu /> 
 
       <main className={styles.main}>
@@ -23,10 +25,13 @@ export default function Application() {
         </h1>
         
         <div > 
-        <p>
+        <h2>
          Application
-        <br></br>
-          
+        <br></br> 
+        </h2>
+        
+        <p>
+          An application for the funding of the hajj trip can be submitted by filling the form below, emailed to ( email address) or mailed to the below address
         </p>
         <div>
           
