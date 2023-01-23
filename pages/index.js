@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import kaaba1 from '../public/new-images-kaaba-mecca-after-restoration_21730-2621.webp'
 import kaaba2 from '../public/kaaba2.jpg'
+import kaaba3 from '../public/new-images-kaaba-mecca-after-restoration.jpg'
 import NavbarMenu from '../components/NavbarMenu'
 import NavbarLogo from '../components/NavbarLogo'
 
@@ -37,18 +38,23 @@ export default function Home() {
           
         </p>
         <div>
-        
+        <br></br>        
           
-        <Image src={kaaba1} alt="Kaaba Picture"
+        <Image src={kaaba3} alt="Kaaba Picture"
             layout='intrinsic'
         >
         </Image> 
-        
+        </div>
+        <div>
+        <br></br>
         <Image src={kaaba2} alt="Kaaba Picture"
             layout='intrinsic'
         >
         </Image>
-        
+        </div>
+
+        <br></br>
+        <div>
         <strong>NOTICE: This organization does not provide any .......</strong>
 
         </div>

@@ -31,7 +31,7 @@ export default function NavbarLogo() {
       <Box sx={{ justifyContent: 'left', display: 'flex', alignItems: 'center', textAlign: 'center' }}>
         
       
-         <a>
+         <a className='logo'>
         <Image
          src={Logo}
          alt="Home"

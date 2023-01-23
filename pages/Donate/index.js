@@ -3,8 +3,8 @@ import Image from 'next/image'
 import styles from '../../styles/Home.module.css'
 import NavbarMenu from '../../components/NavbarMenu'
 import NavbarLogo from '../../components/NavbarLogo'
-import Link from 'next/link'
-
+//import Link from 'next/link'
+import { Link } from '@mui/material';
 
 export default function Donate() {
 
@@ -34,7 +34,9 @@ export default function Donate() {
         <div > 
         <br></br>
         <p>
-        <button onClick={handleDonateClick} class="donatebutton">Donate</button>
+        <Link href="/Donate" passHref>
+          <button class="donatebutton">Donate</button>
+        </Link>
         </p>
     
         

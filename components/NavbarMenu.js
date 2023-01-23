@@ -1,4 +1,4 @@
-import * as React from 'react';
+  import * as React from 'react';
 import Box from '@mui/material/Box';
 import Avatar from '@mui/material/Avatar';
 import Menu from '@mui/material/Menu';
@@ -23,9 +23,6 @@ export default function NavbarMenu() {
     setAnchorEl(null);
   };
 
-  const handleDonateClick = () =>{
-    
-  }
   return (
     <React.Fragment>
       <Box sx={{ justifyContent: 'right', display: 'flex', alignItems: 'center', textAlign: 'center' }}>
@@ -38,8 +35,10 @@ export default function NavbarMenu() {
         <Link href="/Application">
         <Typography sx={{ minWidth: 100 }}>Application</Typography>
         </Link>
+        <Link href="/Donate" passHref>
+          <button class="donatebutton">Donate</button>
+        </Link>
         
-        <button onClick={handleDonateClick} class="donatebutton">Donate</button>
 
 
         <Tooltip title="Account settings">
