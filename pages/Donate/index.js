@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../../styles/Home.module.css'
 import NavbarMenu from '../../components/NavbarMenu'
 import NavbarLogo from '../../components/NavbarLogo'
+import donateForm2 from '../../public/donationForm2.jpg'
 import donateForm from '../../public/donationForm.jpg'
 //import Link from 'next/link'
 import { Link } from '@mui/material';
@@ -39,6 +40,9 @@ export default function Donate() {
         <br></br>
         <br></br>
         <Image src={donateForm} alt="Donate Form">
+        </Image>
+
+        <Image src={donateForm2} alt="Donate Form">
         </Image>
         
         <div>
