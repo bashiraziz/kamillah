@@ -1,4 +1,4 @@
-  import * as React from 'react';
+import * as React from 'react';
 import Box from '@mui/material/Box';
 import Avatar from '@mui/material/Avatar';
 import Menu from '@mui/material/Menu';
@@ -41,7 +41,7 @@ export default function NavbarMenu() {
         
 
 
-        <Tooltip title="Account settings">
+        {/* <Tooltip title="Account settings">
           <IconButton
             onClick={handleClick}
             size="small"
@@ -52,9 +52,9 @@ export default function NavbarMenu() {
           >
             <Avatar sx={{ width: 32, height: 32 }}>M</Avatar>
           </IconButton>
-        </Tooltip>
+        </Tooltip> */}
       </Box>
-      <Menu
+      {/* <Menu
         anchorEl={anchorEl}
         id="account-menu"
         open={open}
@@ -114,7 +114,7 @@ export default function NavbarMenu() {
           </ListItemIcon>
           Logout
         </MenuItem>
-      </Menu>
+      </Menu> */}
     </React.Fragment>
   );
 }

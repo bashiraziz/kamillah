@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../../styles/Home.module.css'
 import NavbarMenu from '../../components/NavbarMenu'
 import NavbarLogo from '../../components/NavbarLogo'
+import donateForm from '../../public/donationForm.jpg'
 //import Link from 'next/link'
 import { Link } from '@mui/material';
 
@@ -33,25 +34,15 @@ export default function Donate() {
       
         <div > 
         <br></br>
-        <p>
-        <Link href="/Donate" passHref>
-          <button class="donatebutton">Donate</button>
-        </Link>
-        </p>
-    
+        <br></br>
+        Your gift allows Kamillah to deliver help to people who yearn to perform Hajj. Gifts from donors like you bolster our vital work!
+        <br></br>
+        <br></br>
+        <Image src={donateForm} alt="Donate Form">
+        </Image>
         
         <div>
-          
-        {/* <Image src={""} alt="Picture"
-            fill='intrinsic'
-        >
-        </Image> 
-        
-        <Image src={""} alt="Picture"
-          fill='intrinsic'
-        >
-        </Image> */}
-        
+        <br></br>  
         <p>
         <strong>NOTICE: This organization does not provide any .......</strong>
         </p>
