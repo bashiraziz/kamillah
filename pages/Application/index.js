@@ -45,7 +45,9 @@ export default function Application() {
         >
         </Image> */}
         
-        <strong>NOTICE: This organization does not provide any .......</strong>
+        <p>
+        <strong>NOTICE: </strong>This organization does not provide any funding for any purpose other than for the expenses necessary for the  performance of the Hajj
+        </p>
 
         </div>
        
