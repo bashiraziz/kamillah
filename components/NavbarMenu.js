@@ -29,9 +29,9 @@ export default function NavbarMenu() {
       <Link href="/">
         <Typography sx={{ minWidth: 100 }}>Home</Typography>
         </Link>
-        <Link href="/Donate">
+        {/* <Link href="/Donate">
         <Typography sx={{ minWidth: 100 }}>Donate</Typography>
-        </Link>
+        </Link> */}
         <Link href="/Application">
         <Typography sx={{ minWidth: 100 }}>Application</Typography>
         </Link>

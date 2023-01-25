@@ -28,7 +28,7 @@ export default function Home() {
         {/* <div style={{backgroundImage:`url(${backgroundpic.src})`}}> */}
         <div > 
         <p>
-         <span style={{color:"#28a745"}}> Kamillah</span> is a 501 (c)(3) 
+         <span style={{color:"#28a745"}}></span> Kamillah is a 501 (c)(3) 
         tax-exempt charitable organization. 
         Our mission is to provide assistance for the performance of Hajj to the people in need, which includes but not limited to, airfare, necessary clothings, 
         meals and transportation for the people that cannot afford taking a trip
@@ -56,7 +56,7 @@ export default function Home() {
         <br></br>
         <div>
         <p>
-        <strong>NOTICE: </strong>This organization does not provide any funding for any purpose other than for the expenses necessary for the  performance of the Hajj
+        <strong>NOTICE: </strong>Kamillah does not provide any funding for any purpose other than for the expenses necessary for the  performance of the Hajj
         </p>
 
         </div>

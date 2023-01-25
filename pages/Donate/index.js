@@ -54,7 +54,7 @@ export default function Donate() {
         <div>
         <br></br>  
         <p>
-        <strong>NOTICE: </strong>This organization does not provide any funding for any purpose other than for the expenses necessary for the  performance of the Hajj
+        <strong>NOTICE: </strong>Kamillah does not provide any funding for any purpose other than for the expenses necessary for the  performance of the Hajj
         </p>
         </div>
         </div>
