@@ -34,6 +34,8 @@ export default function Home() {
         meals and transportation for the people that cannot afford taking a trip
         for the performance of Hajj.
         Our primary objective is to assist poor and needy Muslim around the world perform Hajj.
+        <br/>
+        Gifts from donors like you bolster our vital work!
         <br></br>
           
         </p>

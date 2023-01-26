@@ -27,16 +27,16 @@ export default function NavbarMenu() {
     <React.Fragment>
       <Box sx={{ justifyContent: 'right', display: 'flex', alignItems: 'center', textAlign: 'center' }}>
       <Link href="/">
-        <Typography sx={{ minWidth: 100 }}>Home</Typography>
+        <Typography sx={{ minWidth: 100 }}>About</Typography>
         </Link>
-        {/* <Link href="/Donate">
-        <Typography sx={{ minWidth: 100 }}>Donate</Typography>
-        </Link> */}
-        <Link href="/Application">
-        <Typography sx={{ minWidth: 100 }}>Application</Typography>
+        <Link href="/Contact">
+        <Typography sx={{ minWidth: 100 }}>Contact</Typography>
+        </Link> 
+        <Link href="/Apply">
+        <Typography sx={{ minWidth: 100 }}>Apply</Typography>
         </Link>
         <Link href="/Donate" passHref>
-          <button class="donatebutton">Donate</button>
+          <button class="donatebutton">Donate Now</button>
         </Link>
         
 
