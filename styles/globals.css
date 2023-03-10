@@ -1,6 +1,6 @@
 html,
 body {
-  font-size: 1.05rem;
+  font-size: 1.15rem;
   font-weight: 400;
   background-color: #ffffff;
   color: #000000;
@@ -20,6 +20,10 @@ a {
   box-sizing: border-box;
 }
 
+.labayk {
+  text-align: center;
+  font: size 800px;;
+}
 
 .donatebutton {
   background-color:#73AD21;

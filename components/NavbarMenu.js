@@ -24,6 +24,7 @@ export default function NavbarMenu() {
   };
 
   return (
+    
     <React.Fragment>
       <Box sx={{ justifyContent: 'right', display: 'flex', alignItems: 'center', textAlign: 'center' }}>
       <Link href="/">
@@ -89,6 +90,7 @@ export default function NavbarMenu() {
         transformOrigin={{ horizontal: 'right', vertical: 'top' }}
         anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}
       >
+      
         <MenuItem>
           <Avatar /> Profile
         </MenuItem>

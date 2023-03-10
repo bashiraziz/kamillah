@@ -110,6 +110,10 @@
   margin-left: 0.5rem;
 }
 
+.labayk {
+  text-align: center;
+  font: size 800px;;
+}
 
 @media (max-width: 600px) {
   .grid {
