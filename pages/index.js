@@ -56,7 +56,7 @@ export default function Home() {
         <br></br>It is staggering to consider the sheer enormity of the Hajj, which draws between 2.5 and 3 
           million pilgrims to a limited region of land in and around Mecca.  
           Although 2.5 -3 million pilgrims is a sizable number, there are over 1.5 billion Muslims worldwide.
-          <br></br>
+          
           <strong><em>Thus, the typical Muslim would have to wait 500 years for their time to perform the Hajj.</em></strong>
         </p>
         {/* <div style={{backgroundImage:`url(${backgroundpic.src})`}}> */}
