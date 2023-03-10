@@ -25,7 +25,23 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a href="https://kamillah.org"><strong> <span style={{color:"#28a745"}}> Kamillah</span></strong></a>
         </h1>
+        <h3> Question is: “If you go on Hajj a second time, is that a good deed, or are you being selfish?”</h3>
+        <p>The vast majority of Muslims will never be able to conduct the Hajj due to capacity restrictions 
+          in Mecca. Even worse, if you undertake the Hajj more than once, you deprive an unidentified 
+          individual of the opportunity to do it just once in their lives. 
+          <strong className='strong-delayed'>Several Hajjs are not good,</strong> in my opinion; rather, <strong>they are selfish.</strong>
+        <br></br>It is staggering to consider the sheer enormity of the Hajj, which draws between 2.5 and 3 
+          million pilgrims to a limited region of land in and around Mecca.  
+          Although 2.5 -3 million pilgrims is a sizable number, there are over 1.5 billion Muslims worldwide.
+          <br></br>
+          <strong>Thus, the typical Muslim would have to wait 500 years for their time to perform the Hajj.</strong>
+        </p>
+        <p>
+
+        </p>
         {/* <div style={{backgroundImage:`url(${backgroundpic.src})`}}> */}
+        
+        
         <div > 
         <p>
          <span style={{color:"#28a745"}}></span> Kamillah is a 501 (c)(3) 
@@ -43,7 +59,7 @@ export default function Home() {
         <br></br>        
           
         <Image src={kaaba3} alt="Kaaba Picture"
-            layout='intrinsic'
+          priority
         >
         </Image> 
         </div>
@@ -51,6 +67,7 @@ export default function Home() {
         <br></br>
         <Image src={kaaba2} alt="Kaaba Picture"
             layout='intrinsic'
+            priority
         >
         </Image>
         </div>
