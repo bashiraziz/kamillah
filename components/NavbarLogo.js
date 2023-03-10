@@ -10,7 +10,7 @@ export default function NavbarLogo() {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
   const handleClick = () => {
-
+    
   };
 
   
