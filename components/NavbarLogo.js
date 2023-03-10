@@ -1,16 +1,6 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
-import Avatar from '@mui/material/Avatar';
 import Menu from '@mui/material/Menu';
-import MenuItem from '@mui/material/MenuItem';
-import ListItemIcon from '@mui/material/ListItemIcon';
-import Divider from '@mui/material/Divider';
-import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
-import Tooltip from '@mui/material/Tooltip';
-import PersonAdd from '@mui/icons-material/PersonAdd';
-import Settings from '@mui/icons-material/Settings';
-import Logout from '@mui/icons-material/Logout';
 import { Link } from 'next/link'
 import Image from 'next/image'
 import Home from '../pages';
@@ -20,6 +10,7 @@ export default function NavbarLogo() {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
   const handleClick = () => {
+
   };
 
   
@@ -30,7 +21,6 @@ export default function NavbarLogo() {
       <br/>
       <Box sx={{ justifyContent: 'left', display: 'flex', alignItems: 'center', textAlign: 'center' }}>
         
-      
          <a className='logo'>
         <Image
          src={Logo}
@@ -40,10 +30,9 @@ export default function NavbarLogo() {
         >
         </Image>
         </a>
-        
-        
-        
+      Hajj
       </Box>
+      
       <Menu
         anchorEl={anchorEl}
         id="home"
