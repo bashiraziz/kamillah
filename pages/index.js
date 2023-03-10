@@ -27,8 +27,8 @@ export default function Home() {
           Welcome to <a href="https://kamillah.org"><strong> <span style={{color:"#28a745"}}> Kamillah</span></strong></a>
         </h1>
         <div className="labayk">
-          <p>Labayk Allahuma Labayk Labayk. La shareeka laka Labayk. 
-        Innal hamda wannimata laka wal mulk.  La shareeka Lak <br></br> 
+          <p>Labayk Allahuma Labayk. Labayk La shareeka laka Labayk. 
+        Innal hamda, wannimata, laka wal mulk. La shareeka Lak <br></br> 
         (Here I am at your service, oh Lord, here I am - here I am. No partner do you have.  
         Here I am. <br/>Truly, the praise and the favor are yours, and the dominion. 
         No partner do you have.)
