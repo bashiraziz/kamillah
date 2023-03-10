@@ -30,7 +30,7 @@ export default function Home() {
           <p>Labayk Allahuma Labayk Labayk. La shareeka laka Labayk. 
         Innal hamda wannimata laka wal mulk.  La shareeka Lak <br></br> 
         (Here I am at your service, oh Lord, here I am - here I am. No partner do you have.  
-        Here I am. Truly, the praise and the favor are yours, and the dominion. 
+        Here I am. <br/>Truly, the praise and the favor are yours, and the dominion. 
         No partner do you have.)
         </p>
         </div>
